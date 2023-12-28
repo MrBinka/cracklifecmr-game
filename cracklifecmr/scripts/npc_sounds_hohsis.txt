@@ -1,0 +1,161 @@
+// HOH SIS
+
+"AlienGrunt.LeftFoot"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"wave"		"npc/alien_grunt/STEP_6_new.wav"
+		"wave"		"npc/alien_grunt/STEP_7_new.wav"
+		"wave"		"npc/alien_grunt/STEP_8_new.wav"
+		"wave"		"npc/alien_grunt/STEP_9_new.wav"
+		"wave"		"npc/alien_grunt/STEP_10_new.wav"
+	}
+}
+
+
+"AlienGrunt.RightFoot"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"90,110"
+	"rndwave"
+	{
+		"wave"		"npc/alien_grunt/STEP_6_new.wav"
+		"wave"		"npc/alien_grunt/STEP_7_new.wav"
+		"wave"		"npc/alien_grunt/STEP_8_new.wav"
+		"wave"		"npc/alien_grunt/STEP_9_new.wav"
+		"wave"		"npc/alien_grunt/STEP_10_new.wav"
+	}
+}
+
+"AlienGrunt.AttackMiss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/spooky/claw_miss1.wav"
+		"wave"		"npc/spooky/claw_miss2.wav"
+	}
+}
+
+"AlienGrunt.AttackHit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/spooky/claw_strike1.wav"
+		"wave"		"npc/spooky/claw_strike2.wav"
+		"wave"		"npc/spooky/claw_strike3.wav"
+	}
+}
+
+"AlienGrunt.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"rndwave"
+	{
+		"wave"		"npc/agrunt/ag_attack1.wav"
+		"wave"		"npc/agrunt/ag_attack2.wav"
+		"wave"		"npc/agrunt/ag_attack3.wav"
+	}
+}
+
+"AlienGrunt.Die"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_90db"
+	"rndwave"
+	{
+		"wave"		"npc/agrunt/ag_die1.wav"
+		"wave"		"npc/agrunt/ag_die4.wav"
+		"wave"		"npc/agrunt/ag_die5.wav"
+	}
+}
+
+"AlienGrunt.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85db"
+	"rndwave"
+	{
+		"wave"		"npc/agrunt/ag_pain1.wav"
+		"wave"		"npc/agrunt/ag_pain2.wav"
+		"wave"		"npc/agrunt/ag_pain3.wav"
+		"wave"		"npc/agrunt/ag_pain4.wav"
+		"wave"		"npc/agrunt/ag_pain5.wav"
+	}
+}
+
+"AlienGrunt.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/agrunt/ag_idle1.wav"
+		"wave"		"npc/agrunt/ag_idle2.wav"
+		"wave"		"npc/agrunt/ag_idle3.wav"
+		"wave"		"npc/agrunt/ag_idle4.wav"
+	}
+}
+
+"AlienGrunt.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"rndwave"
+	{
+		"wave"		"npc/agrunt/ag_alert1.wav"
+		"wave"		"npc/agrunt/ag_alert2.wav"
+		"wave"		"npc/agrunt/ag_alert3.wav"
+		"wave"		"npc/agrunt/ag_alert4.wav"
+	}
+}
+
+"Hornet.Die"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"hornet/ag_hornethit1.wav"
+		"wave"		"hornet/ag_hornethit2.wav"
+		"wave"		"hornet/ag_hornethit3.wav"
+
+	}
+}
+
+"Hornet.Buzz"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"hornet/ag_buzz1.wav"
+		"wave"		"hornet/ag_buzz2.wav"
+		"wave"		"hornet/ag_buzz3.wav"
+
+	}
+}
+

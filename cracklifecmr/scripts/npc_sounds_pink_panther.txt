@@ -1,0 +1,137 @@
+//*****************************************************
+// Generic Zombies
+
+"Pinkpanther.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/panther/zo_attack1.wav"
+		"wave"		"npc/panther/zo_attack2.wav"
+	}
+}
+
+"Pinkpanther.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/panther/zo_alert10.wav"
+		"wave"		"npc/panther/zo_alert20.wav"
+		"wave"		"npc/panther/zo_alert30.wav"
+	}
+}
+
+"Pinkpanther.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/panther/zo_pain1.wav"
+		"wave"		"npc/panther/zo_pain2.wav"
+	}
+}
+
+// Mario Zombie
+
+"Mariozombie.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/mariozombie/attack1.wav"
+		"wave"		"npc/mariozombie/attack2.wav"
+	}
+}
+
+"Mariozombie.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/mariozombie/alert1.wav"
+		"wave"		"npc/mariozombie/alert2.wav"
+		"wave"		"npc/mariozombie/alert3.wav"
+	}
+}
+
+"Mariozombie.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_120dB"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/mariozombie/pain1.wav"
+		"wave"		"npc/mariozombie/pain2.wav"
+		"wave"		"npc/mariozombie/pain3.wav"
+	}
+}
+
+//Zombozo
+
+"Zombozo.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"100,120"
+	"rndwave"
+	{
+		"wave"		"npc/zombozo/alert1.wav"
+		"wave"		"npc/zombozo/alert2.wav"
+	}
+}
+
+"Zombozo.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	
+	"wave"		"npc/zombozo/idle.wav"
+}
+
+"Zombozo.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/zombozo/alert1.wav"
+		"wave"		"npc/zombozo/alert2.wav"
+	}
+}
+
+"Zombozo.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/zombozo/death1.wav"
+		"wave"		"npc/zombozo/death2.wav"
+		"wave"		"npc/zombozo/death3.wav"
+	}
+}

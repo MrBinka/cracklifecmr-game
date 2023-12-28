@@ -1,0 +1,45 @@
+//TR1: CRACK-LIFE TRAINING COURSE.
+
+"tr1.movement_room"
+{
+	"dsp"	"18"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"85"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_large2.wav"
+	}
+	
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"0.35"
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"		"0"
+
+		"wave"	"cl_ambience/cleanroom_mono.wav"
+	}
+
+}
+
+"tr1.holo1_room"
+{
+	"dsp"	"2"
+	"playlooping"
+	{
+		"volume"		"0.8"
+		"pitch"		"100"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_med4.wav"
+	}
+	
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"0.01"
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"		"0"
+
+		"wave"	"cl_ambience/cleanroom_mono.wav"
+	}
+	
+}

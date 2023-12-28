@@ -1,0 +1,66 @@
+// Satchel
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"Satchel charge"
+	"viewmodel"		"models/clweapons/v_satchel.mdl"
+	"playermodel"		"models/clweapons/w_satchel.mdl"
+	"anim_prefix"		"trip"
+	"bucket"		"4"
+	"bucket_position"	"1"
+
+	"clip_size"		"-1"
+	"clip2_size"		"-1"
+	"default_clip"		"1"
+	"default_clip2"		"0"
+	"primary_ammo"		"Satchel"
+	"secondary_ammo"	"SatReady"
+
+
+	"weight"		"-10"
+	"item_flags"		"0"	// ITEM_FLAG_SELECTONEMPTY | ITEM_FLAG_LIMITINWORLD | ITEM_FLAG_EXHAUSTIBLE
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special1"		"WeaponFrag.Roll"
+		"double_shot"	"weapon_fragg.Single"
+		"single_shot"	"weapon_fragg.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/640hud3"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
+		}
+		"weapon_s"
+		{	
+			"file"		"sprites/640hud6"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
+		}
+		"ammo"
+		{
+			"file"		"sprites/640hud7"
+			"x"			"72"
+			"y"			"96"
+			"width"		"24"
+			"height"	"24"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		
+	}
+}

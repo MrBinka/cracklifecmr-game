@@ -1,0 +1,114 @@
+// CRACK-LIFE Music
+
+// *******
+// LVL1
+
+"lvl1.Music_Navy_Seals"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life05.mp3"
+}
+
+"lvl2.Music_MGS"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life03.mp3"
+}
+
+"lvl10.Music_Murica"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life06.mp3"
+}
+
+"lvl11.Music_Crockett"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life07.mp3"
+}
+
+"lvl12.Music_Wrongbutton"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life08.mp3"
+}
+
+"lvl13.Music_Thicc"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life09.mp3"
+}
+
+"lvl15.Music_Chavs"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life10.mp3"
+}
+
+"lvl15.Music_Mega_Chav"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life11.mp3"
+}
+
+"lvl22.Music_Gay"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life13.mp3"
+}
+
+"lvlidk_credits.Music"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"*#music/Crack-Life12.mp3"
+}

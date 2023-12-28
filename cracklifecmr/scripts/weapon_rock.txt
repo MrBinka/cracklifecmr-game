@@ -1,0 +1,62 @@
+// Rock
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"Hand grenade"
+	"viewmodel"		"models/clweapons/v_rock.mdl"
+	"playermodel"		"models/clweapons/w_rock.mdl"
+	"anim_prefix"		"crowbar"
+	"bucket"		"3"
+	"bucket_position"	"4"
+
+	"clip_size"		"-1"
+	"default_clip"		"69"
+	"primary_ammo"		"Rock"
+	"secondary_ammo"	"None"
+
+	"weight"		"5"
+	"item_flags"		"24"	// ITEM_FLAG_LIMITINWORLD | ITEM_FLAG_EXHAUSTIBLE
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special1"		"WeaponFrag.Roll"
+		"double_shot"	"weapon_fragg.Single"
+		"single_shot"	"weapon_fragg.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/rock"
+			"x"			"0"
+			"y"			"0"
+			"width"		"170"
+			"height"	"45"
+		}
+		"weapon_s"
+		{	
+			"file"		"sprites/rock"
+			"x"			"0"
+			"y"			"48"
+			"width"		"170"
+			"height"	"45"
+		}
+		"ammo"
+		{
+			"file"		"sprites/640hud9"
+			"x"			"1"
+			"y"			"1"
+			"width"		"1"
+			"height"	"1"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+	}
+}

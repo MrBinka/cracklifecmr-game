@@ -1,0 +1,99 @@
+// CRACK-LIFE Sounds
+
+// *******
+// MISC
+
+"lvlidk.clubinside"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.8"
+	"soundlevel"  "SNDLVL_150dB"
+	"pitch"		"100"
+	"wave"	"newsounds/clubinside.wav"
+}
+
+"lvl1.toiletshit1"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_90dB"
+	"pitch"		"90, 110"
+	"rndwave"
+	{
+		"wave"	"phat/fart1.wav"
+		"wave"	"ambient/machines/usetoilet_flush1.wav"
+		"wave"	"ambient/water/drip2.wav"
+		"wave"	"player/cl_footsteps/duct4.wav"
+	}
+}
+
+"lvl1.toiletshit2"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_90dB"
+	"pitch"		"90, 110"
+	"rndwave"
+	{
+		"wave"	"player/cl_pl_swim4.wav"
+		"wave"	"newsounds/vomit.wav"
+		"wave"	"player/cl_footsteps/dirt2.wav"
+		"wave"	"cl_buttons/button1.wav"
+	}
+}
+
+"cl_break.object"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_140dB"
+	"pitch"		"98, 110"
+	"rndwave"
+	{
+		"wave"	"cl_debris/bustcrate1.wav"
+		"wave"	"cl_debris/bustglass1.wav"
+	}
+}
+
+"cl_break.rock_poink"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_140dB"
+	"pitch"		"98, 110"
+	"rndwave"
+	{
+		"wave"	"cl_debris/bustconcrete1.wav"
+		"wave"	"cl_debris/bustconcrete2.wav"
+	}
+}
+
+"npc_barney_ls.ba_escaped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"		"*newsounds/ba_escaped.wav"
+}
+
+"npc_barney_ls.ba_escaped2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"		"*newsounds/ba_escaped2.wav"
+}
+
+"MortarField.Trigger"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"  	"SNDLVL_NONE"
+	"volume"	"1.0"
+	"pitch"		"95,124"
+
+	"wave"		"weapons/mortar_explo.wav"
+}

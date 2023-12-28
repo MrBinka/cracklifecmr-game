@@ -1,0 +1,39 @@
+//Hassassin
+
+"HAssassin.Shot"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.6,0.8"
+	"soundlevel"	"SNDLVL_140db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"weapons/penis_gun1.wav"
+		"wave"		"weapons/penis_gun2.wav"
+
+	}
+}
+
+"HAssassin.Beamsound"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.8"
+	"soundlevel"	"SNDLVL_140db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"cl_debris/beamstart1.wav"
+}
+
+"HAssassin.Footstep"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"phat/fart1.wav"
+		"wave"		"phat/fart2.wav"
+		"wave"		"phat/fart3.wav"
+		"wave"		"phat/fart4.wav"
+	}
+}

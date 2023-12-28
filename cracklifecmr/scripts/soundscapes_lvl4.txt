@@ -1,0 +1,33 @@
+//LVL4: They will arrive soon and do the JOJ.
+
+"lvl4.utility_smallroom"
+{
+	"dsp"	"17"
+	"playlooping"
+	{
+		"volume"		"0.4"
+		"pitch"		"100"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_small2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"		"100"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_large7.wav"
+	}
+}
+
+"lvl4.storage.tunnels"
+{
+	"dsp"	"6"
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"85"
+		"wave"		"BMS_ambience\room_ambience\r_ambience_large2.wav"
+	}
+		
+}
+

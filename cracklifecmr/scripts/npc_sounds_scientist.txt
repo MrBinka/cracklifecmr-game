@@ -1,0 +1,2296 @@
+//*****************************************************
+// Scientist
+
+// Skrillex
+
+"Skrillex.ZapPowerup"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_140db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/skrillex/charge.wav"
+	}
+}
+
+"Skrillex.ZapShoot"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_140db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/skrillex/fire.wav"
+	}
+}
+
+//Sounds with lipsync
+
+"NPC_Scientist.faggot1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/faggot1.wav"
+}
+
+"NPC_Scientist.faggot2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/faggot2.wav"
+}
+
+"NPC_Scientist.faggot3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/faggot3.wav"
+}
+
+"NPC_Scientist.shit01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/scream05.wav"
+}
+
+"NPC_Scientist.shit02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/scream4.wav"
+}
+
+"NPC_Scientist.shit03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/scream01.wav"
+}
+
+"NPC_Scientist.lvl20speak1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/scientist/lvl20speak1.wav"
+}
+
+"NPC_Scientist.lvl20speak2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/scientist/lvl20speak2.wav"
+}
+
+"NPC_Scientist.lvl20speak3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/scientist/lvl20speak3.wav"
+}
+
+"NPC_Scientist.lvl20speak4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/scientist/lvl20speak4.wav"
+}
+
+"NPC_Scientist.lvl20speak5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/scientist/lvl20speak5.wav"
+}
+
+"NPC_Scientist.pressthebutton"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/pressthebutton.wav"
+}
+
+"NPC_Scientist.wrongbutton"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/wrongbutton.wav"
+}
+
+"NPC_Scientist.texttospeech"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/texttospeech.wav"
+}
+
+"NPC_Scientist.fail"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/fail.wav"
+}
+
+"NPC_Scientist.youcansuck"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/sci_youcansuck.wav"
+}
+
+"NPC_Scientist.barnacle"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/sci_barnacle.wav"
+}
+
+"NPC_Scientist.follow1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/follow1.wav"
+}
+
+"NPC_Scientist.follow2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/follow2.wav"
+}
+
+"NPC_Scientist.follow3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/follow3.wav"
+}
+
+"NPC_Scientist.follow4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/follow4.wav"
+}
+
+"NPC_Scientist.fellowsci"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/afellowsci.wav"
+}
+
+"NPC_Scientist.freemanalive"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/freemanalive.wav"
+}
+
+"NPC_Scientist.goodtoseeyou"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/goodtoseeyou.wav"
+}
+
+"NPC_Scientist.greetings"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/greetings.wav"
+}
+
+"NPC_Scientist.greetings2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/greetings2.wav"
+}
+
+"NPC_Scientist.hello"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/hello.wav"
+}
+
+"NPC_Scientist.hellofromlab"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/hellofromlab.wav"
+}
+
+"NPC_Scientist.hellothere"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/hellothere.wav"
+}
+
+"NPC_Scientist.inmesstoo"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/inmesstoo.wav"
+}
+
+"NPC_Scientist.newhevsuit"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/newhevsuit.wav"
+}
+
+"NPC_Scientist.heal1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/heal1.wav"
+}
+
+"NPC_Scientist.heal2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/heal2.wav"
+}
+
+"NPC_Scientist.heal3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/heal3.wav"
+}
+
+"NPC_Scientist.heal4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/heal4.wav"
+}
+
+"NPC_Scientist.heal5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/heal5.wav"
+}
+
+"NPC_Scientist.holdstill"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/holdstill.wav"
+}
+
+"NPC_Scientist.letstrythis"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/letstrythis.wav"
+}
+
+"NPC_Scientist.youlookbad"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/youlookbad.wav"
+}
+
+"NPC_Scientist.youneedmedic"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/youneedmedic.wav"
+}
+
+"NPC_Scientist.youwounded"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*npc/scientist/youwounded.wav"
+}
+
+"NPC_Scientist.chpain1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_pain1.wav"
+}
+
+"NPC_Scientist.chpain2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_pain2.wav"
+}
+
+"NPC_Scientist.chpain3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_pain3.wav"
+}
+
+"NPC_Scientist.chpain4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_pain4.wav"
+}
+
+"NPC_Scientist.chpain5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_pain5.wav"
+}
+
+"NPC_Scientist.canttakemore"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/canttakemore.wav"
+}
+
+"NPC_Scientist.getoutofhere"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/getoutofhere.wav"
+}
+
+"NPC_Scientist.madness"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/madness.wav"
+}
+
+"NPC_Scientist.noplease"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/noplease.wav"
+}
+
+"NPC_Scientist.sorryimleaving"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sorryimleaving.wav"
+}
+
+"NPC_Scientist.whatyoudoing"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/whatyoudoing.wav"
+}
+
+"NPC_Scientist.stopattacking"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/stopattacking.wav"
+}
+
+"NPC_Scientist.youinsane"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/youinsane.wav"
+}
+
+"NPC_Scientist.dontwantdie"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/dontwantdie.wav"
+}
+
+"NPC_Scientist.getoutalive"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/getoutalive.wav"
+}
+
+"NPC_Scientist.nooo"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/nooo.wav"
+}
+
+"NPC_Scientist.startle1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle1.wav"
+}
+
+"NPC_Scientist.startle2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle2.wav"
+}
+
+"NPC_Scientist.startle3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle3.wav"
+}
+
+"NPC_Scientist.startle4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle4.wav"
+}
+
+"NPC_Scientist.startle5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle5.wav"
+}
+
+"NPC_Scientist.startle6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle6.wav"
+}
+
+"NPC_Scientist.startle7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle7.wav"
+}
+
+"NPC_Scientist.startle8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle8.wav"
+}
+
+"NPC_Scientist.startle9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/startle9.wav"
+}
+
+"NPC_Scientist.sci_fear1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear1.wav"
+}
+
+"NPC_Scientist.sci_fear2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear2.wav"
+}
+
+"NPC_Scientist.sci_fear3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear3.wav"
+}
+
+"NPC_Scientist.sci_fear4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear4.wav"
+}
+
+"NPC_Scientist.sci_fear5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear5.wav"
+}
+
+"NPC_Scientist.sci_fear6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear6.wav"
+}
+
+"NPC_Scientist.sci_fear7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear7.wav"
+}
+
+"NPC_Scientist.sci_fear8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear8.wav"
+}
+
+"NPC_Scientist.sci_fear9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear9.wav"
+}
+
+"NPC_Scientist.sci_fear10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear10.wav"
+}
+
+"NPC_Scientist.sci_fear11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear11.wav"
+}
+
+"NPC_Scientist.sci_fear12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear12.wav"
+}
+
+"NPC_Scientist.sci_fear13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear13.wav"
+}
+
+"NPC_Scientist.sci_fear14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear14.wav"
+}
+
+"NPC_Scientist.sci_fear15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_fear15.wav"
+}
+
+"NPC_Scientist.sci_busy"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_busy.wav"
+}
+
+"NPC_Scientist.sci_douevenlift"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_douevenlift.wav"
+}
+
+"NPC_Scientist.sci_hahvagineer"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci_hahvagineer.wav"
+}
+
+"npc_scientist_ls.absolutely"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/absolutely.wav"
+}
+
+"npc_scientist_ls.absolutelynot"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/absolutelynot.wav"
+}
+
+"npc_scientist_ls.cantbeserious"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/cantbeserious.wav"
+}
+
+"npc_scientist_ls.completelywrong"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/completelywrong.wav"
+}
+
+"npc_scientist_ls.dontknow"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/dontknow.wav"
+}
+
+"npc_scientist_ls.ibelieveso"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ibelieveso.wav"
+}
+
+"npc_scientist_ls.idontthinkso"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/idontthinkso.wav"
+}
+
+"npc_scientist_ls.imsure"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/imsure.wav"
+}
+
+"npc_scientist_ls.inconclusive"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/inconclusive.wav"
+}
+
+"npc_scientist_ls.justasked"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/justasked.wav"
+}
+
+"npc_scientist_ls.lowervoice"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/lowervoice.wav"
+}
+
+"npc_scientist_ls.mynameisnotshane"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/mynameisnotshane.wav"
+}
+
+"npc_scientist_ls.nodoubt"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/nodoubt.wav"
+}
+
+"npc_scientist_ls.noguess"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/noguess.wav"
+}
+
+"npc_scientist_ls.noo"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/noo.wav"
+}
+
+"npc_scientist_ls.notcertain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/notcertain.wav"
+}
+
+"npc_scientist_ls.notsure"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/notsure.wav"
+}
+
+"npc_scientist_ls.ofcourse"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ofcourse.wav"
+}
+
+"npc_scientist_ls.ofcoursenot"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ofcoursenot.wav"
+}
+
+"npc_scientist_ls.perhaps"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/perhaps.wav"
+}
+
+"npc_scientist_ls.positively"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/positively.wav"
+}
+
+"npc_scientist_ls.repeat"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/repeat.wav"
+}
+
+"npc_scientist_ls.ridiculous"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ridiculous.wav"
+}
+
+"npc_scientist_ls.right"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/right.wav"
+}
+
+"npc_scientist_ls.shutup"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/shutup.wav"
+}
+
+"npc_scientist_ls.stopasking"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/stopasking.wav"
+}
+
+"npc_scientist_ls.theoretically"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/theoretically.wav"
+}
+
+"npc_scientist_ls.whocansay"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/whocansay.wav"
+}
+
+"npc_scientist_ls.whyaskme"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/whyaskme.wav"
+}
+
+"npc_scientist_ls.yees"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/yees.wav"
+}
+
+"npc_scientist_ls.yes"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/yes.wav"
+}
+
+"npc_scientist_ls.areyouthink"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/areyouthink.wav"
+}
+
+"npc_scientist_ls.noidea"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/noidea.wav"
+}
+
+"npc_scientist_ls.sci02_builtthegluongun01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci02_builtthegluongun01.wav"
+}
+
+"npc_scientist_ls.sci02_builtthegluongun02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/sci02_builtthegluongun02.wav"
+}
+
+"npc_scientist_ls.odorfromyou"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/odorfromyou.wav"
+}
+
+"npc_scientist_ls.peculiarodor"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/peculiarodor.wav"
+}
+
+"npc_scientist_ls.somethingfoul"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/somethingfoul.wav"
+}
+
+"npc_scientist_ls.stench"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/stench.wav"
+}
+
+"npc_scientist_ls.iwounded"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/iwounded.wav"
+}
+
+"npc_scientist_ls.iwounded2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/iwounded2.wav"
+}
+
+"npc_scientist_ls.iwoundedbad"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/iwoundedbad.wav"
+}
+
+"npc_scientist_ls.analysis"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/analysis.wav"
+}
+
+"npc_scientist_ls.beverage"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/beverage.wav"
+}
+
+"npc_scientist_ls.cascade"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/cascade.wav"
+}
+
+"npc_scientist_ls.checkatten"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/checkatten.wav"
+}
+
+"npc_scientist_ls.correcttheory"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/correcttheory.wav"
+}
+
+"npc_scientist_ls.delayagain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/delayagain.wav"
+}
+
+"npc_scientist_ls.desktop"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/desktop.wav"
+}
+
+"npc_scientist_ls.donuteater"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/donuteater.wav"
+}
+
+"npc_scientist_ls.hungryyet"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/hungryyet.wav"
+}
+
+"npc_scientist_ls.newsample"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/newsample.wav"
+}
+
+"npc_scientist_ls.perfectday"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/perfectday.wav"
+}
+
+"npc_scientist_ls.purereadings"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/purereadings.wav"
+}
+
+"npc_scientist_ls.recalculate"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/recalculate.wav"
+}
+
+"npc_scientist_ls.seencup"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/seencup.wav"
+}
+
+"npc_scientist_ls.shakeunification"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/shakeunification.wav"
+}
+
+"npc_scientist_ls.softethics"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/softethics.wav"
+}
+
+"npc_scientist_ls.statusreport"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/statusreport.wav"
+}
+
+"npc_scientist_ls.tunedtoday"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/tunedtoday.wav"
+}
+
+"npc_scientist_ls.tunnelcalc"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/tunnelcalc.wav"
+}
+
+"npc_scientist_ls.alienappeal"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/alienappeal.wav"
+}
+
+"npc_scientist_ls.alientrick"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/alientrick.wav"
+}
+
+"npc_scientist_ls.announcer"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/announcer.wav"
+}
+
+"npc_scientist_ls.cantbeworse"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/cantbeworse.wav"
+}
+
+"npc_scientist_ls.catchone"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/catchone.wav"
+}
+
+"npc_scientist_ls.desktop"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/desktop.wav"
+}
+
+"npc_scientist_ls.dinner"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/dinner.wav"
+}
+
+"npc_scientist_ls.doyousmell"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/doyousmell.wav"
+}
+
+"npc_scientist_ls.evergetout"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/evergetout.wav"
+}
+
+"npc_scientist_ls.everseen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/everseen.wav"
+}
+
+"npc_scientist_ls.fascinating"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/fascinating.wav"
+}
+
+"npc_scientist_ls.goodpaper"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/goodpaper.wav"
+}
+
+"npc_scientist_ls.headcrab"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/headcrab.wav"
+}
+
+"npc_scientist_ls.hearsomething"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/hearsomething.wav"
+}
+
+"npc_scientist_ls.luckwillchange"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/luckwillchange.wav"
+}
+
+"npc_scientist_ls.needsleep"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/needsleep.wav"
+}
+
+"npc_scientist_ls.nothostile"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/nothostile.wav"
+}
+
+"npc_scientist_ls.rescueus"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/rescueus.wav"
+}
+
+"npc_scientist_ls.rightwayout"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/rightwayout.wav"
+}
+
+"npc_scientist_ls.rumorclean"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/rumorclean.wav"
+}
+
+"npc_scientist_ls.smellburn"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/smellburn.wav"
+}
+
+"npc_scientist_ls.stimulating"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/stimulating.wav"
+}
+
+"npc_scientist_ls.survival"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/survival.wav"
+}
+
+"npc_scientist_ls.uselessphd"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/uselessphd.wav"
+}
+
+"npc_scientist_ls.waithere"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/waithere.wav"
+}
+
+"npc_scientist_ls.whatnext"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/whatnext.wav"
+}
+
+"npc_scientist_ls.allnominal"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/allnominal.wav"
+}
+
+"npc_scientist_ls.asexpected"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/asexpected.wav"
+}
+
+"npc_scientist_ls.desktop"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/desktop.wav"
+}
+
+"npc_scientist_ls.hideglasses"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/hideglasses.wav"
+}
+
+"npc_scientist_ls.hopenominal"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/hopenominal.wav"
+}
+
+"npc_scientist_ls.limitsok"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/limitsok.wav"
+}
+
+"npc_scientist_ls.reportflux"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/reportflux.wav"
+}
+
+"npc_scientist_ls.runtest"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/runtest.wav"
+}
+
+"npc_scientist_ls.shutdownchart"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/shutdownchart.wav"
+}
+
+"npc_scientist_ls.simulation"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/simulation.wav"
+}
+
+"npc_scientist_ls.thatsodd"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/thatsodd.wav"
+}
+
+"npc_scientist_ls.weartie"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/weartie.wav"
+}
+
+"npc_scientist_ls.administrator"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/administrator.wav"
+}
+
+"npc_scientist_ls.bloodsample"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/bloodsample.wav"
+}
+
+"npc_scientist_ls.chaostheory"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/chaostheory.wav"
+}
+
+"npc_scientist_ls.containfail"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/containfail.wav"
+}
+
+"npc_scientist_ls.desktop"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/desktop.wav"
+}
+
+"npc_scientist_ls.howinteresting"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/howinteresting.wav"
+}
+
+"npc_scientist_ls.ihearsomething"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ihearsomething.wav"
+}
+
+"npc_scientist_ls.improbable"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/improbable.wav"
+}
+
+"npc_scientist_ls.ipredictedthis"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/ipredictedthis.wav"
+}
+
+"npc_scientist_ls.lambdalab"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/lambdalab.wav"
+}
+
+"npc_scientist_ls.neverseen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/neverseen.wav"
+}
+
+"npc_scientist_ls.nogrant"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/nogrant.wav"
+}
+
+"npc_scientist_ls.organicmatter"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/organicmatter.wav"
+}
+
+"npc_scientist_ls.peculiarmarks"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/peculiarmarks.wav"
+}
+
+"npc_scientist_ls.whoresponsible"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/whoresponsible.wav"
+}
+
+"npc_scientist_ls.freeman"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/freeman.wav"
+}
+
+"npc_scientist_ls.hellofreeman"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/scientist/hellofreeman.wav"
+}
+
+
+"NPC_Scientist.CatScream"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a0_sci_catscream.wav"
+}
+
+"NPC_Scientist.CheckTie"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/weartie.wav"
+}
+
+"NPC_Scientist.Dangling"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a2_sci_dangling.wav"
+}
+
+"NPC_Scientist.DarkRoom"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a2_sci_darkroom.wav"
+}
+
+"NPC_Scientist.DragOff"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/sci_dragoff.wav"
+}
+
+"NPC_Scientist.Pain3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/sci_pain3.wav"
+}
+
+"NPC_Scientist.Pain4"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/sci_pain4.wav"
+}
+
+"NPC_Scientist.Rocket"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a4_sci_rocket.wav"
+}
+
+"NPC_Scientist.Scream02"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85db"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/scream02.wav"
+}
+
+"NPC_Scientist.Scream3"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/scream3.wav"
+}
+
+"NPC_Scientist.StayBack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a0_sci_stayback.wav"
+}
+
+"NPC_Scientist.Tentacle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"scientist/c1a4_sci_tent.wav"
+}
+
+"NPC_Scientist.VentPull1"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/pl_metal1.wav"
+}
+
+"NPC_Scientist.VentPull2"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/pl_metal2.wav"
+}
+
+"NPC_Scientist.VentPull3"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"player/pl_metal4.wav"
+}
+
+"Scientist.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"scientist/sci_pain1.wav"
+		"wave"		"scientist/sci_pain2.wav"
+		"wave"		"scientist/sci_pain3.wav"
+		"wave"		"scientist/sci_pain4.wav"
+		"wave"		"scientist/sci_pain5.wav"
+	}
+}
+
+"Scientist.Scream01"
+{
+	"soundlevel"  "SNDLVL_90dB"
+	"wave"		"scientist/scream01.wav"
+
+}
+
+
+"Scientist.Scream02"
+{
+	"soundlevel"  "SNDLVL_90dB"
+	"wave"		"scientist/scream02.wav"
+
+}
+
+
+"Scientist.Scream10"
+{
+	"soundlevel"  "SNDLVL_90dB"
+	"wave"		"scientist/scream10.wav"
+
+}
+
+
+"Scientist.Scream25"
+{
+	"soundlevel"  "SNDLVL_90dB"
+	"wave"		"scientist/scream25.wav"
+}

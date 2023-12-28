@@ -1,0 +1,27 @@
+soundscaples_manifest
+{
+	"file"		"scripts/soundscapes.txt"
+
+	// List additional soundscape files here
+
+	"file"		"scripts/soundscapes_canals.txt"
+	"file"		"scripts/soundscapes_klab.txt"
+	"file"		"scripts/soundscapes_elab.txt"
+	"file"		"scripts/soundscapes_streetwar.txt"
+	"file"		"scripts/soundscapes_citadel.txt"
+	"file"		"scripts/soundscapes_town.txt"
+	"file"		"scripts/soundscapes_coast.txt"
+	"file"		"scripts/soundscapes_prison.txt"
+	"file"		"scripts/soundscapes_trainyard.txt"
+	"file"		"scripts/soundscapes_cracklife.txt"
+	"file"		"scripts/soundscapes_lvl1.txt"
+	"file"		"scripts/soundscapes_lvl2.txt"
+	"file"		"scripts/soundscapes_lvl3.txt"
+	"file"		"scripts/soundscapes_lvl4.txt"
+	"file"		"scripts/soundscapes_lvl5.txt"
+	"file"		"scripts/soundscapes_lvl7.txt"
+	"file"		"scripts/soundscapes_lvl16.txt"
+	"file"		"scripts/soundscapes_lvl19.txt"
+	"file"		"scripts/soundscapes_tr1.txt"
+	
+}

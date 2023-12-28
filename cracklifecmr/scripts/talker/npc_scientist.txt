@@ -1,0 +1,448 @@
+
+//response ScientistPLFear sentence SC_PLFEAR delay 5 soundlevel "SNDLVL_NORM"
+response ScientistPLFear
+{
+	scene "scenes/cracklifenpc/scientist/whatyoudoing.vcd"
+	scene "scenes/cracklifenpc/scientist/canttakemore.vcd"
+	scene "scenes/cracklifenpc/scientist/madness.vcd"
+	scene "scenes/cracklifenpc/scientist/noplease.vcd"
+	scene "scenes/cracklifenpc/scientist/getoutofhere.vcd"
+	scene "scenes/cracklifenpc/scientist/sorryimleaving.vcd"
+}
+//response ScientistFear sentence SC_FEAR delay 5 soundlevel "SNDLVL_NORM"
+response ScientistFear
+{
+	scene "scenes/cracklifenpc/scientist/nooo.vcd"
+	scene "scenes/cracklifenpc/scientist/fear1.vcd"
+	scene "scenes/cracklifenpc/scientist/fear2.vcd"
+	scene "scenes/cracklifenpc/scientist/fear3.vcd"
+	scene "scenes/cracklifenpc/scientist/dontwantdie.vcd"
+	scene "scenes/cracklifenpc/scientist/getoutalive.vcd"
+	scene "scenes/cracklifenpc/scientist/fear4.vcd"
+	scene "scenes/cracklifenpc/scientist/fear5.vcd"
+	scene "scenes/cracklifenpc/scientist/fear6.vcd"
+	scene "scenes/cracklifenpc/scientist/fear7.vcd"
+	scene "scenes/cracklifenpc/scientist/fear8.vcd"
+	scene "scenes/cracklifenpc/scientist/fear9.vcd"
+}
+//response ScientistHeal sentence SC_HEAL delay 2 soundlevel "SNDLVL_NORM"
+response ScientistHeal
+{
+	scene "scenes/cracklifenpc/scientist/heal1.vcd"
+	scene "scenes/cracklifenpc/scientist/heal2.vcd"
+	scene "scenes/cracklifenpc/scientist/youneedmedic.vcd"
+	scene "scenes/cracklifenpc/scientist/youlookbad.vcd"
+	scene "scenes/cracklifenpc/scientist/youwounded.vcd"
+	scene "scenes/cracklifenpc/scientist/heal3.vcd"
+	scene "scenes/cracklifenpc/scientist/heal4.vcd"
+	scene "scenes/cracklifenpc/scientist/heal5.vcd"
+}
+//response ScientistScream sentence SC_SCREAM delay "3,6" soundlevel "SNDLVL_NORM"
+response ScientistScream
+{
+	scene "scenes/cracklifenpc/scientist/scream1.vcd"
+	scene "scenes/cracklifenpc/scientist/scream2.vcd"
+	scene "scenes/cracklifenpc/scientist/scream3.vcd"
+	scene "scenes/cracklifenpc/scientist/scream4.vcd"
+	scene "scenes/cracklifenpc/scientist/scream5.vcd"
+	scene "scenes/cracklifenpc/scientist/scream6.vcd"
+	scene "scenes/cracklifenpc/scientist/scream7.vcd"
+	scene "scenes/cracklifenpc/scientist/scream8.vcd"
+	scene "scenes/cracklifenpc/scientist/scream9.vcd"
+	scene "scenes/cracklifenpc/scientist/scream10.vcd"
+	scene "scenes/cracklifenpc/scientist/scream11.vcd"
+	scene "scenes/cracklifenpc/scientist/scream12.vcd"
+	scene "scenes/cracklifenpc/scientist/scream13.vcd"
+	scene "scenes/cracklifenpc/scientist/scream14.vcd"
+	scene "scenes/cracklifenpc/scientist/scream15.vcd"
+}
+//response ScientistPOk sentence SC_POK delay 2 soundlevel "SNDLVL_NORM"
+response ScientistPOk
+{
+	scene "scenes/cracklifenpc/scientist/barnaclevomit.vcd"
+	scene "scenes/cracklifenpc/scientist/youcansuckmyd.vcd"
+	scene "scenes/cracklifenpc/scientist/douevenlift.vcd"
+	scene "scenes/cracklifenpc/scientist/hahvagineer.vcd"
+	scene "scenes/cracklifenpc/scientist/sci_busy.vcd"
+}
+
+//response "ScientistAnswer" sentence "SC_ANSWER" defaultdelay
+response "ScientistAnswer"
+{
+	scene "scenes/cracklifenpc/scientist/notsure.vcd"
+	scene "scenes/cracklifenpc/scientist/notcertain.vcd"
+	scene "scenes/cracklifenpc/scientist/perhaps.vcd"
+	scene "scenes/cracklifenpc/scientist/whocansay.vcd"
+	scene "scenes/cracklifenpc/scientist/inconclusive.vcd"
+	scene "scenes/cracklifenpc/scientist/theoretically.vcd"
+	scene "scenes/cracklifenpc/scientist/whyaskme.vcd"
+	scene "scenes/cracklifenpc/scientist/lowervoice.vcd"
+	scene "scenes/cracklifenpc/scientist/ofcourse.vcd"
+	scene "scenes/cracklifenpc/scientist/absolutely.vcd"
+	scene "scenes/cracklifenpc/scientist/ibelieveso.vcd"
+	scene "scenes/cracklifenpc/scientist/right.vcd"
+	scene "scenes/cracklifenpc/scientist/imsure.vcd"
+	scene "scenes/cracklifenpc/scientist/positively.vcd"
+	scene "scenes/cracklifenpc/scientist/nodoubt.vcd"
+	scene "scenes/cracklifenpc/scientist/yees.vcd"
+	scene "scenes/cracklifenpc/scientist/ofcoursenot.vcd"
+	scene "scenes/cracklifenpc/scientist/noo.vcd"
+	scene "scenes/cracklifenpc/scientist/idontthinkso.vcd"
+	scene "scenes/cracklifenpc/scientist/completelywrong.vcd"
+	scene "scenes/cracklifenpc/scientist/cantbeserious.vcd"
+	scene "scenes/cracklifenpc/scientist/dontknow.vcd"
+	scene "scenes/cracklifenpc/scientist/ridiculous.vcd"
+	scene "scenes/cracklifenpc/scientist/shutup.vcd"
+	scene "scenes/cracklifenpc/scientist/noguess.vcd"
+	scene "scenes/cracklifenpc/scientist/stopasking.vcd"
+	scene "scenes/cracklifenpc/scientist/youcansuckmyd.vcd"
+	scene "scenes/cracklifenpc/scientist/justasked.vcd"
+	scene "scenes/cracklifenpc/scientist/repeat.vcd"
+	scene "scenes/cracklifenpc/scientist/yes.vcd"
+}
+//response "ScientistStare" sentence "SC_STARE" delay "5,7.5"
+response "ScientistStare"
+{
+	scene "scenes/cracklifenpc/scientist/yeesstare.vcd"
+	scene "scenes/cracklifenpc/scientist/areyouthink.vcd"
+	scene "scenes/cracklifenpc/scientist/noidea.vcd"
+}
+//response "ScientistOk" sentence "SC_OK" defaultdelay
+response "ScientistOk"
+{
+	scene "scenes/cracklifenpc/scientist/okifollowu.vcd"
+	scene "scenes/cracklifenpc/scientist/follow2.vcd"
+	scene "scenes/cracklifenpc/scientist/follow3.vcd"
+	scene "scenes/cracklifenpc/scientist/follow4.vcd"
+}
+
+//response "ScientistPain" sentence "SC_PAIN" defaultdelay
+response "ScientistPain"
+{
+	scene "scenes/cracklifenpc/scientist/pain1.vcd"
+	scene "scenes/cracklifenpc/scientist/pain2.vcd"
+	scene "scenes/cracklifenpc/scientist/pain3.vcd"
+	scene "scenes/cracklifenpc/scientist/pain4.vcd"
+	scene "scenes/cracklifenpc/scientist/pain5.vcd"
+}
+
+//response "ScientistWait" sentence "SC_WAIT"
+response "ScientistWait"
+{
+	scene "scenes/cracklifenpc/scientist/fail.vcd"
+	scene "scenes/cracklifenpc/scientist/barnaclevomit.vcd"
+	scene "scenes/cracklifenpc/scientist/youcansuckmyd.vcd"
+}
+//response "ScientistStop" sentence "SC_STOP" delay "2,2.5"  soundlevel "SNDLVL_NORM"
+response "ScientistStop"
+{
+	scene "scenes/cracklifenpc/scientist/sci_1glu.vcd"
+	scene "scenes/cracklifenpc/scientist/sci_3glu.vcd"
+}
+
+//response "ScientistScared" sentence "SC_SCARED" delay "0,0.4"
+response "ScientistScared"
+{
+	scene "scenes/cracklifenpc/scientist/whatyoudoing.vcd"
+	scene "scenes/cracklifenpc/scientist/stopattacking.vcd"
+	scene "scenes/cracklifenpc/scientist/youinsane.vcd"
+}
+//response "ScientistCureA" sentence "SC_CUREA"  defaultdelay speakonce
+response "ScientistCureA"
+{
+	scene "scenes/cracklifenpc/scientist/youlookbadshort.vcd"
+}
+//response "ScientistCureB" sentence "SC_CUREB"  defaultdelay speakonce
+response "ScientistCureB"
+{
+	scene "scenes/cracklifenpc/scientist/youwoundedshort.vcd"
+}
+//response "ScientistCureC" sentence "SC_CUREC"  defaultdelay speakonce
+response "ScientistCureC"
+{
+	scene "scenes/cracklifenpc/scientist/youneedmedicshort.vcd"
+}
+
+//response "ScientistSmell" sentence "SC_SMELL" defaultdelay respeakdelay "60"
+response "ScientistSmell"
+{
+	scene "scenes/cracklifenpc/scientist/somethingfoul.vcd"
+	scene "scenes/cracklifenpc/scientist/odorfromyou.vcd"
+	scene "scenes/cracklifenpc/scientist/peculiarodor.vcd"
+	scene "scenes/cracklifenpc/scientist/stench.vcd"
+}
+//response "ScientistWound" sentence "SC_WOUND"  speakonce defaultdelay
+response "ScientistWound"
+{
+	scene "scenes/cracklifenpc/scientist/iwounded.vcd"
+	scene "scenes/cracklifenpc/scientist/iwounded2.vcd"
+}
+//response "ScientistMortal" sentence "SC_MORTAL"  speakonce defaultdelay
+response "ScientistMortal"
+{
+	scene "scenes/cracklifenpc/scientist/iwoundedbad.vcd"
+	scene "scenes/cracklifenpc/scientist/iwounded2.vcd"
+}
+
+//response "ScientistQuestionPreDisaster" sentence "SC_PQUEST" defaultdelay
+response "ScientistQuestionPreDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/beverage.vcd"
+	scene "scenes/cracklifenpc/scientist/statusreport.vcd"
+	scene "scenes/cracklifenpc/scientist/tunnelcalc.vcd"
+	scene "scenes/cracklifenpc/scientist/shakeunification.vcd"
+	scene "scenes/cracklifenpc/scientist/correcttheory.vcd"
+	scene "scenes/cracklifenpc/scientist/analysis.vcd"
+	scene "scenes/cracklifenpc/scientist/purereadings.vcd"
+	scene "scenes/cracklifenpc/scientist/newsample.vcd"
+	scene "scenes/cracklifenpc/scientist/perfectday.vcd"
+	scene "scenes/cracklifenpc/scientist/cascade.vcd"
+	scene "scenes/cracklifenpc/scientist/delayagain.vcd"
+	scene "scenes/cracklifenpc/scientist/softethics.vcd"
+	scene "scenes/cracklifenpc/scientist/tunedtoday.vcd"
+	scene "scenes/cracklifenpc/scientist/donuteater.vcd"
+	scene "scenes/cracklifenpc/scientist/seencup.vcd"
+	scene "scenes/cracklifenpc/scientist/hungryyet.vcd"
+	scene "scenes/cracklifenpc/scientist/recalculate.vcd"
+	scene "scenes/cracklifenpc/scientist/checkatten.vcd"
+}
+//response "ScientistQuestionPostDisaster" sentence "SC_QUESTION" defaultdelay
+response "ScientistQuestionPostDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/everseen.vcd"
+	scene "scenes/cracklifenpc/scientist/needsleep.vcd"
+	scene "scenes/cracklifenpc/scientist/areyouthink_question.vcd"
+	scene "scenes/cracklifenpc/scientist/evergetout.vcd"
+	scene "scenes/cracklifenpc/scientist/rightwayout.vcd"
+	scene "scenes/cracklifenpc/scientist/cantbeworse.vcd"
+	scene "scenes/cracklifenpc/scientist/rescueus.vcd"
+	scene "scenes/cracklifenpc/scientist/fascinating.vcd"
+	scene "scenes/cracklifenpc/scientist/stimulating.vcd"
+	scene "scenes/cracklifenpc/scientist/luckwillchange.vcd"
+	scene "scenes/cracklifenpc/scientist/hearsomething.vcd"
+	scene "scenes/cracklifenpc/scientist/doyousmell.vcd"
+	scene "scenes/cracklifenpc/scientist/uselessphd.vcd"
+	scene "scenes/cracklifenpc/scientist/waithere.vcd"
+	scene "scenes/cracklifenpc/scientist/survival.vcd"
+	scene "scenes/cracklifenpc/scientist/headcrab.vcd"
+	scene "scenes/cracklifenpc/scientist/goodpaper.vcd"
+	scene "scenes/cracklifenpc/scientist/catchone.vcd"
+	scene "scenes/cracklifenpc/scientist/dinner.vcd"
+	scene "scenes/cracklifenpc/scientist/alientrick.vcd"
+	scene "scenes/cracklifenpc/scientist/alienappeal.vcd"
+	scene "scenes/cracklifenpc/scientist/rumorclean.vcd"
+	scene "scenes/cracklifenpc/scientist/nothostile.vcd"
+	scene "scenes/cracklifenpc/scientist/announcer.vcd"
+	scene "scenes/cracklifenpc/scientist/smellburn.vcd"
+	scene "scenes/cracklifenpc/scientist/noidea_question.vcd"
+	scene "scenes/cracklifenpc/scientist/whatnext.vcd"
+}
+//response "ScientistIdlePreDisaster" sentence "SC_PIDLE" defaultdelay
+response "ScientistIdlePreDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/hideglasses.vcd"
+	scene "scenes/cracklifenpc/scientist/weartie.vcd"
+	scene "scenes/cracklifenpc/scientist/runtest.vcd"
+	scene "scenes/cracklifenpc/scientist/limitsok.vcd"
+	scene "scenes/cracklifenpc/scientist/asexpected.vcd"
+	scene "scenes/cracklifenpc/scientist/thatsodd.vcd"
+	scene "scenes/cracklifenpc/scientist/allnominal.vcd"
+	scene "scenes/cracklifenpc/scientist/shutdownchart.vcd"
+	scene "scenes/cracklifenpc/scientist/reportflux.vcd"
+	scene "scenes/cracklifenpc/scientist/simulation.vcd"
+	scene "scenes/cracklifenpc/scientist/hopenominal.vcd"
+}
+//response "ScientistIdlePostDisaster" sentence "SC_IDLE" defaultdelay
+response "ScientistIdlePostDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/ipredictedthis.vcd"
+	scene "scenes/cracklifenpc/scientist/containfail.vcd"
+	scene "scenes/cracklifenpc/scientist/chaostheory.vcd"
+	scene "scenes/cracklifenpc/scientist/howinteresting.vcd"
+	scene "scenes/cracklifenpc/scientist/neverseen.vcd"
+	scene "scenes/cracklifenpc/scientist/peculiarmarks.vcd"
+	scene "scenes/cracklifenpc/scientist/whoresponsible.vcd"
+	scene "scenes/cracklifenpc/scientist/nogrant.vcd"
+	scene "scenes/cracklifenpc/scientist/bloodsample.vcd"
+	scene "scenes/cracklifenpc/scientist/administrator.vcd"
+	scene "scenes/cracklifenpc/scientist/improbable.vcd"
+	scene "scenes/cracklifenpc/scientist/organicmatter.vcd"
+	scene "scenes/cracklifenpc/scientist/lambdalab.vcd"
+	scene "scenes/cracklifenpc/scientist/ihearsomething.vcd"
+}
+//response "ScientistHelloPreDisaster" sentence "SC_PHELLO" speakonce defaultdelay
+response "ScientistHelloPreDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/hellofreeman.vcd"
+	scene "scenes/cracklifenpc/scientist/greetings2.vcd"
+	scene "scenes/cracklifenpc/scientist/goodtoseeyou.vcd"
+	scene "scenes/cracklifenpc/scientist/greetings.vcd"
+	scene "scenes/cracklifenpc/scientist/hello.vcd"
+	scene "scenes/cracklifenpc/scientist/hellothere.vcd"
+	scene "scenes/cracklifenpc/scientist/freeman.vcd"
+}
+//response "ScientistHelloPostDisaster" sentence "SC_HELLO" delay "3,3.5" speakonce
+response "ScientistHelloPostDisaster"
+{
+	scene "scenes/cracklifenpc/scientist/hellothere.vcd"
+	scene "scenes/cracklifenpc/scientist/freemanalive.vcd"
+	scene "scenes/cracklifenpc/scientist/afellowsci.vcd"
+	scene "scenes/cracklifenpc/scientist/greetings2.vcd"
+	scene "scenes/cracklifenpc/scientist/hello.vcd"
+	scene "scenes/cracklifenpc/scientist/goodtoseeyou.vcd"
+	scene "scenes/cracklifenpc/scientist/newhevsuit.vcd"
+	scene "scenes/cracklifenpc/scientist/hellofromlab.vcd"
+	scene "scenes/cracklifenpc/scientist/ahfreeman.vcd"
+}
+
+criterion "ConceptScientistPLFear" "Concept" "SC_PLFEAR" required
+criterion "ConceptScientistFear" "Concept" "SC_FEAR" required
+criterion "ConceptScientistHeal" "Concept" "SC_HEAL" required
+criterion "ConceptScientistScream" "Concept" "SC_SCREAM" required
+criterion "ConceptScientistPain" "Concept" "SC_PAIN" required
+criterion "ConceptScientistPOk" "Concept" "SC_POK" required
+criterion "IsNotFyodor" "health" "<31" required
+
+criterion "IsSittingScientist" "classname" "monster_sitting_scientist"
+criterion "IsNormalScientist" "classname" "monster_scientist"
+
+// Must match one or the other underlying criteria
+criterion "IsScientist" required
+{ 
+	IsSittingScientist 
+	IsNormalScientist 
+} 
+
+rule ScientistPLFear
+{
+	criteria IsScientist ConceptScientistPLFear IsNotFyodor
+	response ScientistPLFear
+}
+rule ScientistFear
+{
+	criteria IsScientist ConceptScientistFear IsNotFyodor
+	response ScientistFear
+}
+rule ScientistHeal
+{
+	criteria IsScientist ConceptScientistHeal
+	response ScientistHeal
+}
+rule ScientistScream
+{
+	criteria IsScientist ConceptScientistScream IsNotFyodor
+	response ScientistScream
+}
+rule ScientistPain
+{
+	criteria IsScientist ConceptScientistPain
+	response ScientistPain
+}
+rule ScientistPOk
+{
+	criteria IsScientist ConceptScientistPOk
+	response ScientistPOk
+}
+
+rule ScientistTlkAnswer
+{
+	criteria		IsScientist ConceptTalkAnswer
+	response		ScientistAnswer
+}
+rule ScientistTlkStare
+{
+	criteria		IsScientist ConceptTalkStare
+	response		ScientistStare
+}
+
+rule ScientistTlkStartFollow
+{
+	criteria		IsScientist ConceptTalkStartFollow
+	response		ScientistOk
+}
+
+rule ScientistTlkStopFollow
+{
+	criteria		IsScientist ConceptTalkStopFollow
+	response		ScientistWait
+}
+
+rule ScientistTlkStop
+{
+	criteria		IsScientist ConceptTalkStop
+	response		ScientistStop
+}
+
+rule ScientistTlkNoShoot
+{
+	criteria		IsScientist ConceptTalkNoShoot
+	response		ScientistScared
+}
+
+rule ScientistPlayerHurt1
+{
+	criteria		IsScientist ConceptTalkPlayerHurt1
+	response		ScientistCureA
+}
+rule ScientistPlayerHurt2
+{
+	criteria		IsScientist ConceptTalkPlayerHurt2
+	response		ScientistCureB
+}
+rule ScientistPlayerHurt3
+{
+	criteria		IsScientist ConceptTalkPlayerHurt3
+	response		ScientistCureC
+}
+
+rule ScientistTlkSmell
+{
+	criteria		IsScientist ConceptTalkSmell
+	response		ScientistSmell
+}
+rule ScientistTlkWound
+{
+	criteria		IsScientist ConceptTalkWound
+	response		ScientistWound
+}
+rule ScientistTlkMortal
+{
+	criteria		IsScientist ConceptTalkMortal
+	response		ScientistMortal
+}
+
+
+// Pre disaster
+rule ScientistTlkHelloPre
+{
+	criteria		IsScientist ConceptTalkHello IsPreDisaster IsNotFyodor
+	response		ScientistHelloPreDisaster
+}
+
+rule ScientistTlkQuestionPre
+{
+	criteria		IsScientist ConceptTalkQuestion IsPreDisaster IsNotFyodor
+	response		ScientistQuestionPreDisaster
+}
+rule ScientistTlkIdlePre
+{
+	criteria		IsScientist ConceptTalkIdle IsPreDisaster IsNotFyodor
+	response		ScientistIdlePreDisaster
+}
+
+rule ScientistTlkHelloPost
+{
+	criteria		IsScientist ConceptTalkHello IsPostDisaster
+	response		ScientistHelloPostDisaster
+}
+
+rule ScientistTlkQuestionPost
+{
+	criteria		IsScientist ConceptTalkQuestion IsPostDisaster
+	response		ScientistQuestionPostDisaster
+}
+rule ScientistTlkIdlePost
+{
+	criteria		IsScientist ConceptTalkIdle IsPostDisaster
+	response		ScientistIdlePostDisaster
+}

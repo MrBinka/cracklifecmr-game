@@ -1,0 +1,119 @@
+//Skeleton 3spooky5me
+
+"Skeleton.FootstepLeft"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+
+	"wave"		"cl_common/npc_step1.wav"
+}
+
+"Skeleton.FootstepRight"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"95, 105"
+
+	"wave"		"cl_common/npc_step3.wav"
+}
+
+"Skeleton.AttackHit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/spooky/claw_strike1.wav"
+		"wave"		"npc/spooky/claw_strike2.wav"
+		"wave"		"npc/spooky/claw_strike3.wav"
+	}
+}
+
+"Skeleton.AttackMiss"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/spooky/claw_miss1.wav"
+		"wave"		"npc/spooky/claw_miss2.wav"
+	}
+}
+
+"Skeleton.Pain"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.95"
+	"pitch"			"95, 104"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/spooky/s_pain1.wav"
+		"wave"	"npc/spooky/s_pain2.wav"
+		"wave"	"npc/spooky/s_pain3.wav"
+	}
+}
+
+"Skeleton.Die"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.95"
+	"pitch"			"95, 105"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"	"npc/spooky/s_die.wav"
+		"wave"	"npc/spooky/s_die2.wav"
+		"wave"	"npc/spooky/s_die3.wav"
+	}
+}
+
+"NPC_BaseSkeleton.Moan1"
+{
+	"channel"		"CHAN_VOICE"
+	"pitch"			"100"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"taunts/null.wav"
+}
+
+"NPC_BaseSkeleton.Moan2"
+{
+	"channel"		"CHAN_VOICE"
+	"pitch"			"100"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"taunts/null.wav"
+}
+
+"NPC_BaseSkeleton.Moan3"
+{
+	"channel"		"CHAN_VOICE"
+	"pitch"			"100"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"taunts/null.wav"
+}
+
+"NPC_BaseSkeleton.Moan4"
+{
+	"channel"		"CHAN_VOICE"
+	"pitch"			"100"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"taunts/null.wav"
+}

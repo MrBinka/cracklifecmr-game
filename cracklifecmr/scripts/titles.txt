@@ -1,0 +1,681 @@
+//TITLES FOR HALF-LIFE 2
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 200 200 200
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.02
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+INTRO1
+{
+A mod by Mr Binka
+}
+
+//INTRO CREDITS
+// Test values -- JAY
+// Lower left
+$position 0.1 0.8
+$effect 1
+// Final fade-in color
+$color 200 200 200
+// This is the highlight/flash color
+$color2 240 110 0
+$fadein 1.5
+$fadeout 0.5
+$holdtime 2.0
+
+CR1
+{
+Testing 1
+}
+
+CR2
+{
+Testing 2
+}
+
+CR3
+{
+Testing 3
+}
+
+CRED1
+{
+Mr Binka
+}
+
+CRED2
+{
+Siemka321
+}
+
+CRED3
+{
+Original mod by International Minds
+}
+
+CRED4
+{
+Crowbar Collective
+}
+
+CRED5
+{
+GabeN
+}
+
+
+//INTRO TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+GAMEOVER_ALLY
+{
+#CRACKLIFECMR_GameOver_Ally
+}
+
+GAMEOVER_OBJECT
+{
+#CRACKLIFECMR_GameOver_Object
+}
+
+GAMEOVER_TIMER
+{
+#CRACKLIFECMR_GameOver_Timer
+}
+
+GAMEOVER_STUCK
+{
+#CRACKLIFECMR_GameOver_Stuck
+}
+
+
+$fadein 0.03
+$holdtime 9
+
+
+//CHAPTER TITLES
+
+$fadein 0.01
+$holdtime 3.5
+$position -1 0.58
+
+CHAPTER1_TITLE
+{
+#CRACKLIFECMR_Chapter1_Title
+}
+
+CHAPTER2_TITLE
+{
+#CRACKLIFECMR_Chapter2_Title
+}
+
+CHAPTER3_TITLE
+{
+#CRACKLIFECMR_Chapter3_Title
+}
+
+CHAPTER4_TITLE
+{
+#CRACKLIFECMR_Chapter4_Title
+}
+
+CHAPTER5_TITLE
+{
+#CRACKLIFECMR_Chapter5_Title
+}
+
+CHAPTER6_TITLE
+{
+#CRACKLIFECMR_Chapter6_Title
+}
+
+CHAPTER7_TITLE
+{
+#CRACKLIFECMR_Chapter7_Title
+}
+
+CHAPTER8_TITLE
+{
+#CRACKLIFECMR_Chapter8_Title
+}
+
+CHAPTER9_TITLE
+{
+#CRACKLIFECMR_Chapter9_Title
+}
+
+CHAPTER9A_TITLE
+{
+#CRACKLIFECMR_Chapter9a_Title
+}
+
+
+CHAPTER10_TITLE
+{
+#CRACKLIFECMR_Chapter10_Title
+}
+
+CHAPTER11_TITLE
+{
+#CRACKLIFECMR_Chapter11_Title
+}
+
+CHAPTER12_TITLE
+{
+#CRACKLIFECMR_Chapter12_Title
+}
+
+CHAPTER13_TITLE
+{
+#CRACKLIFECMR_Chapter13_Title
+}
+
+
+// In-Game messages
+$position 0.1 0.1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.00
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.15
+// How long to hold the message on the screen (after it scans out)
+$holdtime 1.0
+// How long it takes to fade out the message after holding
+$fadeout 0.25
+
+$boxsize 0.4
+$boxcolor 31 31 31 127
+
+GAMESAVING_360
+{
+#CRACKLIFECMR_Saved
+}
+
+$position -1 0.65
+
+GAMESAVING
+{
+#CRACKLIFECMR_Saved
+}
+
+// In-Game messages
+$position 0.1 0.1
+$effect 2
+// This is the final color
+$color 100 100 100
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.00
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.15
+// How long to hold the message on the screen (after it scans out)
+$holdtime 1.0
+// How long it takes to fade out the message after holding
+$fadeout 0.25
+
+$boxsize 0.4
+$boxcolor 31 31 31 127
+
+// The following message will clear any existing message of the given name
+$clearmessage GAMESAVING
+
+GAMESAVED_360
+{
+#CRACKLIFECMR_Saved
+}
+
+$position -1 0.65
+
+GAMESAVED
+{
+#CRACKLIFECMR_Saved
+}
+
+$clearmessage 0
+
+// Game title
+// This is a placeholder to hold the effects controls for the "Half-Life" title
+$position -1 -1
+// Only effect 0 is supported for game title
+$effect 0
+// This is the final color
+$color 180 180 180
+// Not used color2
+$color2 0 0 0
+// This is the time it takes to fade in the title
+$fadein 1.0
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.0
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$boxsize 0.0
+
+GAMETITLE
+{
+Crack-Life
+}
+
+//HAZARD COURSE TEXT
+
+// Test values -- JAY
+$position -1 0.65
+// Scan-out text effect
+$effect 2
+// This is the final color
+$color 200 200 200
+// This is the highlight color
+$color2 0 200 50
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.5
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$position -1 0.3
+HZBUTTON1
+{
+PRESS YOUR DICK KEY TO SMASH YOUR BALLS
+AGAINST THE BUTTON
+}
+
+$position -1 0.65
+HZBUTTON2
+{
+PRESS YOUR DICK KEY TO SMASH YOUR BALLS AGAINST THE BUTTON
+}
+
+HZMOVE
+{
+MOVE FORWARD BY MOVING FORWARD
+MOVE BACKWARDS BY MOVING BACKWARDS
+MOVE RIGHT BY MOVING RIGHT
+MOVE LEFT BY MOVING LEFT
+BEAT THE UNBEATABLE
+TAN THE UNTANNABLE
+GO GO GALO SENGEN
+}
+
+HZJUMP
+{
+WHILE RUNNING FORWARD
+PRESS THE JUMP KEY TO FART YOURSELF UP INTO THE AIR
+}
+
+HZDUCK
+{
+WHILE RUNNING FORWARD
+PRESS DUCK KEY TO BECOME A MIDGET
+PRESS FORWARD + DUCK KEYS TOGETHER 
+TO MOVE IN MIDGET MODE
+}
+
+HZCOMBO
+{
+MOVE FORWARD
+FART YOURSELF UP
+SHRINK INTO A MIDGET
+FART YOURSELF UP AGAIN
+}
+
+HZDUCKJUMP
+{
+FART YOURSELF UP WHILE MOVING
+BECOME A MIDGET IN MID AIR
+}
+
+HZLADDER
+{
+MOVE FORWARD TO MOVE UP THE LADDER
+MOVE BACKWARDS TO MOVE DOWN THE LADDER
+}
+
+HZLJUMP
+{
+WHILE MOVING FORWARD,
+BECOME A MIDGET--
+THEN FART
+YOU WILL DIARRHEA YOURSELF UP INTO AIR
+AND FLY LONG DISTANCES
+}
+
+$position -1 0.3
+HZLMOD
+{
+BE SURE YOU PICKED UP THE LONG-SHIT,
+BECAUSE OTHERWISE YOU WILL JUST HUMILIATE YOURSELF
+}
+
+$position -1 0.65
+HZMEDKIT
+{
+MEDKITS HEAL YOU
+MEDSTANDS HEAL YOU
+SCIENTISTS KILL YOU
+QUICKSAVE
+}
+
+HZMOMENT
+{
+PRIMARY FIRE - SHOOTS
+SECONDARY FIRE - SHOOTS
+IN CASE YOU DIDN'T KNOW THAT
+}
+
+HZPUSH
+{
+PRESS FORWARD KEY TO MOVE AGAINST BOX
+KEEP PRESSING FORWARD TO PUSH BOX
+}
+
+HZPULL
+{
+PRESS USE + BACKWARD KEYS TOGETHER
+TO PULL BOX BACKWARD
+}
+
+HZCROWBAR
+{
+MOVE UP TO CROWBAR
+PRESS ATTACK1 KEY TO BREAK OBJECTS
+}
+ 
+HZLITEON
+{
+PRESS YOUR FLASHLIGHT KEY TO USE YOUR FLASHLIGHT
+PRESS YOUR FLASHLIGHT KEY
+TO NOT USE YOUR FLASHLIGHT ANYMORE
+YOU NEED YOUR FLASHLIGHT TO SURVIVE AGAINST 2SPOOKYS
+}
+
+HZLITEOFF
+{
+PRESS FLASHLIGHT KEY AGAIN 
+TO TURN FLASHLIGHT OFF
+}
+
+HZWEAPON
+{
+STEP NEAR A WEAPON TO SUCK IT INTO YOURSELF
+YOU SHALL BECOME THE WEAPON
+USE THE WEAPON AGAINST BADDIES
+YOU ARE THE WEAPON
+}
+
+HZFIREWEAP
+{
+MOUSE1 - SHOOTS
+MOUSE2 - SHOOTS
+R - RELOAD
+IN CASE YOU DIDN'T KNOW THAT.
+}
+
+HZARMOR
+{
+PRESS AND HOLD YOUR USE KEY
+HOLD DOWN UNTIL SUIT ARMOR IS CHARGED
+OR CHARGER IS DEPLETED
+}
+
+HZSWIM
+{
+PRESS YOUR FORWARD KEY
+AIM WITH THE MOUSE AS YOU SWIM
+FIND AIR IF YOU BEGIN TO LOSE HEALTH
+WAIT IN THE AIR UNTIL HEALTH 
+RETURNS TO FORMER LEVEL
+}
+
+HZDAMAGE
+{
+CERTAIN TYPES OF DAMAGE WILL REGISTER 
+ON YOUR HEADS-UP DISPLAY.
+DIRECTION OF DAMAGE IS INDICATED BY RED 
+FLASHES IN THE CENTER OF YOUR SCREEN
+}
+
+HZHAZARD
+{
+SHIT HURTS YO!
+RUN PAST THE RADIATION WITHOUT DYING FROM RADIATION
+BTW - RADIATION
+}
+
+HZSCIENTIST
+{
+APPROACH SCIENTIST
+PRESS USE KEY TO RECEIVE HEALTH FROM SCIENTIST
+}
+
+HZBARNEY
+{
+APPROACH SECURITY GUARD
+PRESS YOUR USE KEY TO GET HIS HELP
+WALK TOWARD DOOR AND GUARD
+WILL ACTIVATE BUTTONS
+}
+
+HZTRAIN
+{
+PRESS USE KEY TO ENGAGE TRAIN
+PRESS FORWARD KEY TO ACCELERATE
+PRESS BACKWARD KEY TO DECELERATE
+PRESS USE KEY AGAIN TO DISENGAGE
+}
+
+HZDONE
+{
+CONGRATS!
+YOU ARE A HUGE FUCKING FAGGOT!
+NOW YOU CAN PLAY THE CAMPAIGN!
+}
+
+//CRACK-LIFE GAME TITLES
+// All centered for now
+$position -1 -1
+$effect 2
+// This is the final color
+$color 200 200 200
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+DILDOTAKE
+{
+I found a red dildo shaped key.
+}
+
+REGULARKEY
+{
+I found a regular key.
+}
+
+CENT
+{
+Picked up 1 cent...
+}
+
+SPOOKYTNT
+{
+This must be the hole that old faggot was talking about...
+}
+
+NOMONEY
+{
+I ain't got no money, nigguh
+}
+
+SPOOKYTNT2
+{
+I think I can seal it by planting some TNT.
+But where can I find some!?
+}
+
+BLUEDILDO
+{
+I found a giant blue dildo shaped key.
+}
+
+DILDOUNLOCK
+{
+I unlocked the door with the dildo key.
+}
+
+GABEN1
+{
+IT DIDN'T HAVE TO BE LIKE THIS
+}
+
+GABEN2
+{
+THE GOOD AMONG US DIE LONELY
+}
+
+$fadein 0.03
+$holdtime 9
+
+TRIPPERS
+{
+SUBJECT:  FREEMAN
+
+STATUS:  FUCKED UP
+
+POSTMORTEM:
+Nice one, jackass.
+}
+
+LOCKED
+{
+This door is locked.
+}
+
+SECRETFOUND
+{
+You have found a secret!
+}
+
+TNT
+{
+TNT acquired! (fuck yourself)
+}
+
+DEVICE
+{
+Communications device acquired!
+}
+
+//END CREDITS
+$position -1 -1
+$effect 0
+// Final fade-in color
+$color 200 200 200
+// This is the highlight/flash color
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 8
+
+END1
+{
+Thanks for playing Crack-Life: Campaign Mode Remake.
+
+It's a miracle that this mod even exists...
+}
+
+END2
+{
+It all started after I made Crack-Life Remastered for Black Mesa
+
+Then you guys asked for Campaign Mode...
+}
+
+END3
+{
+Technically it was impossible to make 
+Campaign Mode on Black Mesa
+because I wouldn't be able to
+add any new weapons or NPCs at all.
+}
+
+//END SONG CREDITS
+//$position -1 -1
+//$effect 0
+// Final fade-in color
+//$color 200 200 200
+// This is the highlight/flash color
+//$color2 0 0 0
+//$fadein 0.5
+//$fadeout 0.5
+//$holdtime 15
+
+END4
+{
+So I had to kinda re-create Black Mesa on standard Half-Life 2
+just to make Campaign Mode on it...
+
+Crazy idea, but it worked.
+}
+
+END5
+{
+But was it worth it?
+}
+
+END6
+{
+Well, I don't know
+but at least we have Crack-Life on Source now...
+}

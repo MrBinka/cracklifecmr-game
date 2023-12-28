@@ -1,0 +1,212 @@
+//*****************************************************
+// SuperChav
+
+//Sounds with lipsync
+
+"NPC_SuperChav.Idle1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_idle1.wav"
+}
+
+"NPC_SuperChav.Idle2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_idle2.wav"
+}
+
+"NPC_SuperChav.Idle3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_idle3.wav"
+}
+
+"NPC_SuperChav.Idle4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_idle4.wav"
+}
+
+"NPC_SuperChav.Alert1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_alert10.wav"
+}
+
+"NPC_SuperChav.Alert2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_alert20.wav"
+}
+
+"NPC_SuperChav.Alert3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_alert30.wav"
+}
+
+"NPC_SuperChav.Attack1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_attack1.wav"
+}
+
+"NPC_SuperChav.Attack2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_attack2.wav"
+}
+
+"NPC_SuperChav.Pain1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_pain1.wav"
+}
+
+"NPC_SuperChav.Pain2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/superchav/zo_pain2.wav"
+}
+
+"NPC_SuperChav.PainRnd"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+	
+	"rndwave"
+	{
+		"wave"			"npc/superchav/zo_pain1.wav"
+		"wave"			"npc/superchav/zo_pain2.wav"
+	}
+}
+
+//Mega Chav
+
+"Megachav.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/megachav/zo_attack1.wav"
+		"wave"		"npc/megachav/zo_attack2.wav"
+	}
+}
+
+"Megachav.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/megachav/zo_idle1.wav"
+		"wave"		"npc/megachav/zo_idle2.wav"
+		"wave"		"npc/megachav/zo_idle3.wav"
+		"wave"		"npc/megachav/zo_idle4.wav"
+	}
+}
+
+"Megachav.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/megachav/zo_alert10.wav"
+		"wave"		"npc/megachav/zo_alert20.wav"
+		"wave"		"npc/megachav/zo_alert30.wav"
+	}
+}
+
+"Megachav.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/megachav/zo_pain1.wav"
+		"wave"		"npc/megachav/zo_pain2.wav"
+	}
+}
+
+"NPC_MegaChav.PainRnd"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+	
+	"rndwave"
+	{
+		"wave"			"npc/megachav/zo_pain1.wav"
+		"wave"			"npc/megachav/zo_pain2.wav"
+	}
+}

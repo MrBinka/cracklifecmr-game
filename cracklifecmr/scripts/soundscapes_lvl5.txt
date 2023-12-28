@@ -1,0 +1,16 @@
+//LVL5: Hey Gordon, you know we can see you through this glass.
+
+"lvl5.outside"
+{
+	"dsp"	"0"
+
+}
+
+"lvl6.spikeroom"
+{
+	"dsp"	"19"
+
+}
+
+
+

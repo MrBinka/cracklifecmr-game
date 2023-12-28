@@ -1,0 +1,58 @@
+
+response SuperchavIdle
+{
+	scene "scenes/cracklifenpc/superchav/idle1.vcd"
+	scene "scenes/cracklifenpc/superchav/idle2.vcd"
+	scene "scenes/cracklifenpc/superchav/idle3.vcd"
+	scene "scenes/cracklifenpc/superchav/idle4.vcd"
+}
+
+response SuperchavAlert
+{
+	scene "scenes/cracklifenpc/superchav/alert1.vcd"
+	scene "scenes/cracklifenpc/superchav/alert2.vcd"
+	scene "scenes/cracklifenpc/superchav/alert3.vcd"
+}
+
+response SuperchavAttack
+{
+	scene "scenes/cracklifenpc/superchav/attack1.vcd"
+	scene "scenes/cracklifenpc/superchav/attack2.vcd"
+}
+
+response SuperchavPain
+{
+	scene "scenes/cracklifenpc/superchav/pain1.vcd"
+	scene "scenes/cracklifenpc/superchav/pain2.vcd"
+}
+
+criterion "ConceptSuperchavIdle" "Concept" "SCH_IDLE" required
+criterion "ConceptSuperchavAlert" "Concept" "SCH_ALERT" required
+criterion "ConceptSuperchavAttack" "Concept" "SCH_ATTACK" required
+criterion "ConceptSuperchavPain" "Concept" "SCH_PAIN" required
+
+criterion "IsSuperchav" "classname" "monster_superchav" required
+
+rule SuperchavIdle
+{
+	criteria IsSuperchav ConceptSuperchavIdle
+	response SuperchavIdle
+}
+
+rule SuperchavAlert
+{
+	criteria IsSuperchav ConceptSuperchavAlert
+	response SuperchavAlert
+}
+
+rule SuperchavAttack
+{
+	criteria IsSuperchav ConceptSuperchavAttack
+	response SuperchavAttack
+}
+
+rule SuperchavPain
+{
+	criteria IsSuperchav ConceptSuperchavPain
+	response SuperchavPain
+}

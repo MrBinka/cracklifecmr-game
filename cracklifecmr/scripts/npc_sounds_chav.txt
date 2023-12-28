@@ -1,0 +1,157 @@
+//*****************************************************
+// Chav
+
+//Sounds with lipsync
+
+"NPC_Chav.Idle_Random"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+	
+	"rndwave"
+	{
+		"wave"			"*npc/chav/zo_idle1.wav"
+		"wave"			"*npc/chav/zo_idle2.wav"
+		"wave"			"*npc/chav/zo_idle3.wav"
+		"wave"			"*npc/chav/zo_idle4.wav"
+	}
+}
+
+"NPC_Chav.Idle1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_idle1.wav"
+}
+
+"NPC_Chav.Idle2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_idle2.wav"
+}
+
+"NPC_Chav.Idle3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_idle3.wav"
+}
+
+"NPC_Chav.Idle4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_idle4.wav"
+}
+
+"NPC_Chav.Alert1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_alert10.wav"
+}
+
+"NPC_Chav.Alert2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_alert20.wav"
+}
+
+"NPC_Chav.Alert3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_alert30.wav"
+}
+
+"NPC_Chav.Attack1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_attack1.wav"
+}
+
+"NPC_Chav.Attack2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_attack2.wav"
+}
+
+"NPC_Chav.Pain1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_pain1.wav"
+}
+
+"NPC_Chav.Pain2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+
+	"wave"			"*npc/chav/zo_pain2.wav"
+}
+
+"NPC_Chav.PainRnd"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_120dB"
+	
+	"rndwave"
+	{
+		"wave"			"npc/chav/zo_pain1.wav"
+		"wave"			"npc/chav/zo_pain2.wav"
+	}
+}

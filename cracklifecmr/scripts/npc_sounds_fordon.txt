@@ -1,0 +1,14 @@
+//*****************************************************
+// Fordon
+
+//Sounds with lipsync
+
+"npc_fordon.ihavetodrop"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"		"*npc/fordon/ihavetodrop.wav"
+}

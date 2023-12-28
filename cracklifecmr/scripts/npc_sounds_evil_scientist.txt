@@ -1,0 +1,78 @@
+//*****************************************************
+// Evil Scientist
+
+"Evilsci.Attack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,105"
+	"rndwave"
+	{
+		"wave"		"npc/evilsci/zo_attack1.wav"
+		"wave"		"npc/evilsci/zo_attack2.wav"
+	}
+}
+
+"Evilsci.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	
+	"rndwave"
+	{
+		"wave"		"npc/evilsci/zo_idle1.wav"
+		"wave"		"npc/evilsci/zo_idle2.wav"
+		"wave"		"npc/evilsci/zo_idle3.wav"
+		"wave"		"npc/evilsci/zo_idle4.wav"
+		"wave"		"npc/evilsci/zo_idle5.wav"
+		"wave"		"npc/evilsci/zo_idle6.wav"
+	}
+}
+
+"Evilsci.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/evilsci/zo_alert10.wav"
+		"wave"		"npc/evilsci/zo_alert20.wav"
+		"wave"		"npc/evilsci/zo_alert30.wav"
+		"wave"		"npc/evilsci/zo_alert40.wav"
+		"wave"		"npc/evilsci/zo_alert50.wav"
+		"wave"		"npc/evilsci/zo_alert60.wav"
+	}
+}
+
+"Evilsci.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"95,104"
+	"rndwave"
+	{
+		"wave"		"npc/evilsci/zo_pain1.wav"
+		"wave"		"npc/evilsci/zo_pain2.wav"
+		"wave"		"npc/evilsci/zo_pain3.wav"
+		"wave"		"npc/evilsci/zo_pain4.wav"
+		"wave"		"npc/evilsci/zo_pain5.wav"
+	}
+}
+
+// Terror Scientist
+
+"Terror.Alert"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_120db"
+	"pitch"			"95,104"
+	
+	"wave"			"npc/terror/allahuakbar.wav"
+}

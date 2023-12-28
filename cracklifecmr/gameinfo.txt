@@ -1,0 +1,39 @@
+"GameInfo"
+{
+	game 		"Crack-Life: Campaign Mode Remake"
+	title 		"CRAUK-LIFE"
+	title2		"capignmode"
+	type		singleplayer_only
+	icon		"resource/game"
+	
+	FileSystem
+	{
+		SteamAppId					220				// 243730=Source SDK Base 2013 Singleplayer, 220=HL2
+		SearchPaths
+		{
+			// Custom content.
+			game+mod            	|gameinfo_path|custom/*
+			
+			//VPK files from main mod folder need to be above loose files.
+			//Otherwise Linux won't load sounds from these VPKs.			
+			game					|gameinfo_path|cracklifecmr_pak.vpk
+			
+			game+mod+mod_write+default_write_path	|gameinfo_path|.		// Mod
+			gamebin					|gameinfo_path|bin		// Mod's Binaries	
+			
+			// Base Half-Life 2 Content: ep2, episodic, hl2
+			game_lv					|all_source_engine_paths|hl2/hl2_lv.vpk
+			game					|all_source_engine_paths|hl2/hl2_english.vpk
+			//game					|all_source_engine_paths|hl2/hl2_pak.vpk
+			game					|all_source_engine_paths|hl2/hl2_textures.vpk
+			game					|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game					|all_source_engine_paths|hl2/hl2_misc.vpk
+			platform				|all_source_engine_paths|platform/platform_misc.vpk
+	 
+			game					|all_source_engine_paths|hl2
+			platform				|all_source_engine_paths|platform
+			
+		}
+	}
+	
+}

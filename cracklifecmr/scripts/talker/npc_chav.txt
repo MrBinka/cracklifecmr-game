@@ -1,0 +1,58 @@
+
+response ChavIdle
+{
+	scene "scenes/cracklifenpc/chav/idle1.vcd"
+	scene "scenes/cracklifenpc/chav/idle2.vcd"
+	scene "scenes/cracklifenpc/chav/idle3.vcd"
+	scene "scenes/cracklifenpc/chav/idle4.vcd"
+}
+
+response ChavAlert
+{
+	scene "scenes/cracklifenpc/chav/alert1.vcd"
+	scene "scenes/cracklifenpc/chav/alert2.vcd"
+	scene "scenes/cracklifenpc/chav/alert3.vcd"
+}
+
+response ChavAttack
+{
+	scene "scenes/cracklifenpc/chav/attack1.vcd"
+	scene "scenes/cracklifenpc/chav/attack2.vcd"
+}
+
+response ChavPain
+{
+	scene "scenes/cracklifenpc/chav/pain1.vcd"
+	scene "scenes/cracklifenpc/chav/pain2.vcd"
+}
+
+criterion "ConceptChavIdle" "Concept" "CH_IDLE" required
+criterion "ConceptChavAlert" "Concept" "CH_ALERT" required
+criterion "ConceptChavAttack" "Concept" "CH_ATTACK" required
+criterion "ConceptChavPain" "Concept" "CH_PAIN" required
+
+criterion "IsChav" "classname" "monster_chav" required
+
+rule ChavIdle
+{
+	criteria IsChav ConceptChavIdle
+	response ChavIdle
+}
+
+rule ChavAlert
+{
+	criteria IsChav ConceptChavAlert
+	response ChavAlert
+}
+
+rule ChavAttack
+{
+	criteria IsChav ConceptChavAttack
+	response ChavAttack
+}
+
+rule ChavPain
+{
+	criteria IsChav ConceptChavPain
+	response ChavPain
+}

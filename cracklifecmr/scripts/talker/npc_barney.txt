@@ -1,0 +1,343 @@
+
+//response BarneyAttack sentence BA_ATTACK
+response BarneyAttack 
+{
+	scene "scenes/cracklifenpc/barney/aimforhead.vcd"
+	scene "scenes/cracklifenpc/barney/diebloodsucker.vcd"
+	scene "scenes/cracklifenpc/barney/openfire.vcd"
+	scene "scenes/cracklifenpc/barney/standback.vcd"
+	scene "scenes/cracklifenpc/barney/whatisthat.vcd"
+}
+//response BarneyMad sentence BA_MAD delay 4 soundlevel "SNDLVL_NORM"
+response BarneyMad 
+{
+	scene "scenes/cracklifenpc/barney/ba_stepoff.vcd"
+	scene "scenes/cracklifenpc/barney/ba_tomb.vcd"
+	scene "scenes/cracklifenpc/barney/ba_dontmake.vcd"
+	scene "scenes/cracklifenpc/barney/ba_endline.vcd"
+	scene "scenes/cracklifenpc/barney/ba_uwish.vcd"
+	scene "scenes/cracklifenpc/barney/ba_iwish.vcd"
+}
+//response BarneyShot sentence BA_SHOT delay 4 soundlevel "SNDLVL_NORM"
+response BarneyShot 
+{
+	scene "scenes/cracklifenpc/barney/ba_whoathere.vcd"
+	scene "scenes/cracklifenpc/barney/ba_dotoyou.vcd"
+	scene "scenes/cracklifenpc/barney/ba_endline.vcd"
+	scene "scenes/cracklifenpc/barney/ba_tomb.vcd"
+	scene "scenes/cracklifenpc/barney/ba_friends.vcd"
+	scene "scenes/cracklifenpc/barney/ba_iwish.vcd"
+}
+//response BarneyKill sentence BA_KILL delay 4 soundlevel "SNDLVL_NORM"
+response BarneyKill 
+{
+	scene "scenes/cracklifenpc/barney/ba_another.vcd"
+	scene "scenes/cracklifenpc/barney/ba_firepl.vcd"
+	scene "scenes/cracklifenpc/barney/ba_close.vcd"
+	scene "scenes/cracklifenpc/barney/ba_buttugly.vcd"
+	scene "scenes/cracklifenpc/barney/ba_bring.vcd"
+	scene "scenes/cracklifenpc/barney/ba_seethat.vcd"
+	scene "scenes/cracklifenpc/barney/ba_gotone.vcd"
+}
+//response BarneyPOk sentence BA_POK delay 2 soundlevel "SNDLVL_NORM"
+response BarneyPOk 
+{
+	scene "scenes/cracklifenpc/barney/ba_later.vcd"
+	scene "scenes/cracklifenpc/barney/ba_raincheck.vcd"
+	scene "scenes/cracklifenpc/barney/ba_duty.vcd"
+	scene "scenes/cracklifenpc/barney/ba_post.vcd"
+}
+
+//response "BarneyPain" sentence "BA_PAIN" defaultdelay
+response "BarneyPain"
+{
+	scene "scenes/cracklifenpc/barney/ba_pain1.vcd"
+	scene "scenes/cracklifenpc/barney/ba_pain2.vcd"
+	scene "scenes/cracklifenpc/barney/ba_pain3.vcd"
+}
+
+//response "BarneyAnswer" sentence "BA_ANSWER" defaultdelay
+response "BarneyAnswer"
+{
+	scene "scenes/cracklifenpc/barney/noway.vcd"
+	scene "scenes/cracklifenpc/barney/ireckon.vcd"
+	scene "scenes/cracklifenpc/barney/soundsright.vcd"
+	scene "scenes/cracklifenpc/barney/yessir.vcd"
+	scene "scenes/cracklifenpc/barney/youbet.vcd"
+	scene "scenes/cracklifenpc/barney/yougotit.vcd"
+	scene "scenes/cracklifenpc/barney/yup.vcd"
+	scene "scenes/cracklifenpc/barney/dontaskme.vcd"
+	scene "scenes/cracklifenpc/barney/dontbet.vcd"
+	scene "scenes/cracklifenpc/barney/dontbuyit.vcd"
+	scene "scenes/cracklifenpc/barney/dontfigure.vcd"
+	scene "scenes/cracklifenpc/barney/dontguess.vcd"
+	scene "scenes/cracklifenpc/barney/hardtosay.vcd"
+	scene "scenes/cracklifenpc/barney/justdontknow.vcd"
+	scene "scenes/cracklifenpc/barney/nope.vcd"
+	scene "scenes/cracklifenpc/barney/nosir.vcd"
+	scene "scenes/cracklifenpc/barney/cantfigure.vcd"
+	scene "scenes/cracklifenpc/barney/maybe.vcd"
+	scene "scenes/cracklifenpc/barney/notelling.vcd"
+	scene "scenes/cracklifenpc/barney/bequiet.vcd"
+	scene "scenes/cracklifenpc/barney/youtalkmuch.vcd"
+	scene "scenes/cracklifenpc/barney/alreadyasked.vcd"
+}
+//response "BarneyStare" sentence "BA_STARE" delay "5,7.5"
+response "BarneyStare"
+{
+	scene "scenes/cracklifenpc/barney/yessir_plr.vcd"
+	scene "scenes/cracklifenpc/barney/yup_plr.vcd"
+	scene "scenes/cracklifenpc/barney/heyfella_plr.vcd"
+	scene "scenes/cracklifenpc/barney/howyoudoing_plr.vcd"
+}
+//response "BarneyOk" sentence "BA_OK" defaultdelay
+response "BarneyOk" 
+{
+	scene "scenes/cracklifenpc/barney/ba_iwish.vcd"
+	scene "scenes/cracklifenpc/barney/hellonicesuit.vcd"
+	scene "scenes/cracklifenpc/barney/imwithyou.vcd"
+	scene "scenes/cracklifenpc/barney/ba_stepoff.vcd"
+	scene "scenes/cracklifenpc/barney/ba_fuckyou.vcd"
+}
+//response "BarneyWait" sentence "BA_WAIT" defaultdelay
+response "BarneyWait" 
+{
+	scene "scenes/cracklifenpc/barney/ba_taunt1.vcd"
+	scene "scenes/cracklifenpc/barney/ba_hohsis.vcd"
+	scene "scenes/cracklifenpc/barney/ba_elevmove2.vcd"
+	scene "scenes/cracklifenpc/barney/ba_alienflyby1.vcd"
+	scene "scenes/cracklifenpc/barney/ba_pingas.vcd"
+	scene "scenes/cracklifenpc/barney/ba_ladder1.vcd"
+}
+//response "BarneyStop" sentence "BA_STOP" delay "2,2.5"  soundlevel "SNDLVL_NORM"
+response "BarneyStop" 
+{
+	scene "scenes/cracklifenpc/barney/stop1.vcd"
+	scene "scenes/cracklifenpc/barney/stop2.vcd"
+}
+//response "BarneyScared" sentence "BA_SCARED" delay "0,0.4"
+response "BarneyScared" 
+{
+	scene "scenes/cracklifenpc/barney/donthurtem.vcd"
+	scene "scenes/cracklifenpc/barney/leavealone.vcd"
+}
+//response "BarneyCureA" sentence "BA_CUREA"  defaultdelay speakonce
+response "BarneyCureA" 
+{
+	scene "scenes/cracklifenpc/barney/checkwounds.vcd"
+}
+//response "BarneyCureB" sentence "BA_CUREB"  defaultdelay speakonce
+response "BarneyCureB" 
+{
+	scene "scenes/cracklifenpc/barney/youneedmedic.vcd"
+}
+//response "BarneyCureC" sentence "BA_CUREC"  defaultdelay speakonce
+response "BarneyCureC" 
+{
+	scene "scenes/cracklifenpc/barney/realbadwound.vcd"
+}
+//response "BarneySmell" sentence "BA_SMELL" defaultdelay respeakdelay "60"
+response "BarneySmell" 
+{
+	scene "scenes/cracklifenpc/barney/somethingdied.vcd"
+	scene "scenes/cracklifenpc/barney/somethingstinky.vcd"
+	scene "scenes/cracklifenpc/barney/stench.vcd"
+}
+//response "BarneyWound" sentence "BA_WOUND"  speakonce defaultdelay
+response "BarneyWound" 
+{
+	scene "scenes/cracklifenpc/barney/imhit.vcd"
+	scene "scenes/cracklifenpc/barney/hitbad.vcd"
+}
+//response "BarneyMortal" sentence "BA_MORTAL"  speakonce defaultdelay
+response "BarneyMortal" 
+{
+	scene "scenes/cracklifenpc/barney/imdead.vcd"
+}
+
+response "BarneyQuestionPreDisaster" sentence "BA_PQUEST" defaultdelay
+//response "BarneyQuestionPostDisaster" sentence "BA_QUESTION" defaultdelay
+response "BarneyQuestionPostDisaster" 
+{
+	scene "scenes/cracklifenpc/barney/beertopside.vcd"
+	scene "scenes/cracklifenpc/barney/wayout.vcd"
+	scene "scenes/cracklifenpc/barney/getanyworse.vcd"
+	scene "scenes/cracklifenpc/barney/gladof38.vcd"
+	scene "scenes/cracklifenpc/barney/workingonstuff.vcd"
+	scene "scenes/cracklifenpc/barney/whatsgoingon.vcd"
+	scene "scenes/cracklifenpc/barney/aintscared.vcd"
+	scene "scenes/cracklifenpc/barney/nodrill.vcd"
+	scene "scenes/cracklifenpc/barney/gettingcloser.vcd"
+	scene "scenes/cracklifenpc/barney/youhearthat.vcd"
+	scene "scenes/cracklifenpc/barney/crewdied.vcd"
+	scene "scenes/cracklifenpc/barney/somethingmoves.vcd"
+	scene "scenes/cracklifenpc/barney/thinking.vcd"
+	scene "scenes/cracklifenpc/barney/missingleg.vcd"
+}
+//response "BarneyIdlePostDisaster" sentence "BA_IDLE" defaultdelay
+response "BarneyIdlePostDisaster" 
+{
+	scene "scenes/cracklifenpc/barney/whatisthat_plr.vcd"
+	scene "scenes/cracklifenpc/barney/coldone.vcd"
+	scene "scenes/cracklifenpc/barney/guyresponsible.vcd"
+	scene "scenes/cracklifenpc/barney/bigmess.vcd"
+	scene "scenes/cracklifenpc/barney/luckwillturn.vcd"
+	scene "scenes/cracklifenpc/barney/bigplace.vcd"
+	scene "scenes/cracklifenpc/barney/targetpractice.vcd"
+	scene "scenes/cracklifenpc/barney/badfeeling.vcd"
+	scene "scenes/cracklifenpc/barney/ambush.vcd"
+	scene "scenes/cracklifenpc/barney/survive.vcd"
+	scene "scenes/cracklifenpc/barney/stophere.vcd"
+}
+//response "BarneyHelloPostDisaster" sentence "BA_HELLO" delay "3,3.5" speakonce
+response "BarneyHelloPostDisaster" 
+{
+	scene "scenes/cracklifenpc/barney/hellonicesuit.vcd"
+	scene "scenes/cracklifenpc/barney/howdy.vcd"
+	scene "scenes/cracklifenpc/barney/howyoudoing_plr.vcd"
+	scene "scenes/cracklifenpc/barney/haybuddy.vcd"
+	scene "scenes/cracklifenpc/barney/heyfella_plr.vcd"
+}
+
+criterion "ConceptBarneyAttack" "Concept" "BA_ATTACK" required
+criterion "ConceptBarneyMad" "Concept" "BA_MAD" required
+criterion "ConceptBarneyShot" "Concept" "BA_SHOT" required
+criterion "ConceptBarneyKill" "Concept" "BA_KILL" required
+criterion "ConceptBarneyPain" "Concept" "BA_PAIN" required
+criterion "ConceptBarneyPOk" "Concept" "BA_POK" required
+
+criterion "IsBarney" "classname" "monster_security" required
+
+rule BarneyAttack
+{
+	criteria IsBarney ConceptBarneyAttack
+	response BarneyAttack
+}
+rule BarneyMad
+{
+	criteria IsBarney ConceptBarneyMad
+	response BarneyMad
+}
+rule BarneyShot
+{
+	criteria IsBarney ConceptBarneyShot
+	response BarneyShot
+}
+rule BarneyKill
+{
+	criteria IsBarney ConceptBarneyKIll
+	response BarneyKill
+}
+rule BarneyPain
+{
+	criteria IsBarney ConceptBarneyPain
+	response BarneyPain
+}
+rule BarneyPOk
+{
+	criteria IsBarney ConceptBarneyPOk
+	response BarneyPOk
+}
+
+rule BarneyTlkAnswer
+{
+	criteria		IsBarney ConceptTalkAnswer
+	response		BarneyAnswer
+}
+rule BarneyTlkStare
+{
+	criteria		IsBarney ConceptTalkStare
+	response		BarneyStare
+}
+
+rule BarneyTlkStartFollow
+{
+	criteria		IsBarney ConceptTalkStartFollow
+	response		BarneyOk
+}
+
+rule BarneyTlkStopFollow
+{
+	criteria		IsBarney ConceptTalkStopFollow
+	response		BarneyWait
+}
+
+rule BarneyTlkStop
+{
+	criteria		IsBarney ConceptTalkStop
+	response		BarneyStop
+}
+
+rule BarneyTlkNoShoot
+{
+	criteria		IsBarney ConceptTalkNoShoot
+	response		BarneyScared
+}
+
+rule BarneyPlayerHurt1
+{
+	criteria		IsBarney ConceptTalkPlayerHurt1
+	response		BarneyCureA
+}
+rule BarneyPlayerHurt2
+{
+	criteria		IsBarney ConceptTalkPlayerHurt2
+	response		BarneyCureB
+}
+rule BarneyPlayerHurt3
+{
+	criteria		IsBarney ConceptTalkPlayerHurt3
+	response		BarneyCureC
+}
+
+rule BarneyTlkSmell
+{
+	criteria		IsBarney ConceptTalkSmell
+	response		BarneySmell
+}
+rule BarneyTlkWound
+{
+	criteria		IsBarney ConceptTalkWound
+	response		BarneyWound
+}
+rule BarneyTlkMortal
+{
+	criteria		IsBarney ConceptTalkMortal
+	response		BarneyMortal
+}
+
+
+// Pre disaster
+rule BarneyTlkHelloPre
+{
+	criteria		IsBarney ConceptTalkHello IsPreDisaster
+	response		NullResponse
+}
+
+rule BarneyTlkQuestionPre
+{
+	criteria		IsBarney ConceptTalkQuestion IsPreDisaster
+	response		BarneyQuestionPreDisaster
+}
+rule BarneyTlkIdlePre
+{
+	criteria		IsBarney ConceptTalkIdle IsPreDisaster
+	response		NullResponse
+}
+
+rule BarneyTlkHelloPost
+{
+	criteria		IsBarney ConceptTalkHello IsPostDisaster
+	response		BarneyHelloPostDisaster
+}
+
+rule BarneyTlkQuestionPost
+{
+	criteria		IsBarney ConceptTalkQuestion IsPostDisaster
+	response		BarneyQuestionPostDisaster
+}
+rule BarneyTlkIdlePost
+{
+	criteria		IsBarney ConceptTalkIdle IsPostDisaster
+	response		BarneyIdlePostDisaster
+}

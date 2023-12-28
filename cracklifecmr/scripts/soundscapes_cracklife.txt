@@ -1,0 +1,56 @@
+
+// Soundscapes for Crack-Life
+
+ 
+"lvlidk.club.inside"
+{
+	"dsp"	"2"
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"0.8"
+		"soundlevel"  	"SNDLVL_40dB"
+
+		"wave"	"newsounds/clubinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"0.01"
+		"soundlevel"  	"SNDLVL_100dB"
+
+		"wave"	"cl_ambience/alien_cycletone.wav"
+	}
+}
+"lvlidk.club.outside"
+{
+	"dsp"	"14"
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"0.2"
+		"soundlevel"  	"SNDLVL_40dB"
+
+		"wave"	"newsounds/clubinside.wav"
+	}
+	
+
+
+}
+
+"lvlidk.majestic12"
+{
+	"dsp"	"0"
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"1.0"
+		"soundlevel"  	"SNDLVL_NONE"
+
+		"wave"	"#newsounds/majestic12newloop.wav"
+	}
+	
+
+
+}
